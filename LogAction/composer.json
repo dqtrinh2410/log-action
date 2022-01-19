@@ -1,0 +1,18 @@
+{
+    "name": "trinh/log-action",
+    "description": "Trinh LogAction",
+    "require": {
+        "php": "*",
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Trinh\\LogAction\\": ""
+        }
+    }
+}
